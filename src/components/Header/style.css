@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #082F49;
+    padding: 15px 30px;
+}
+
+.header .left_side img{
+    width: 300px;
+}
+
+.header .right_side{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .right_side .noti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    color: #082F49;
+}
+
+.header .right_side .noti:hover{
+    background-color: #cccccc;
+    transition: 0.5s;
+}
+
+.header .right_side .profile_img{
+    cursor: pointer;
+}
