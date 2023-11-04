@@ -5,7 +5,7 @@ import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
 import ApartmentOutlinedIcon from '@mui/icons-material/ApartmentOutlined';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 
-const Header = () => {
+const Navside = () => {
     return (
         <div className='navside'>
             <div className='upper'>
@@ -40,4 +40,4 @@ const Header = () => {
     );
 }
 
-export default Header;
+export default Navside;
